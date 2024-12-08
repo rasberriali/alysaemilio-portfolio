@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from "../images/logo.png"
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,15 +26,17 @@ function Navbar() {
   const toggleMenu = () => setIsMenuOpen(prevState => !prevState);
 
   return (
-    <nav className="min-h-24 w-full bg-[#181824] flex justify-between items-center px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans z-50 sticky top-0">
+    <nav className="min-h-24 w-full bg-[#181824] flex justify-between items-center px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans z-50 sticky top-0 ">
       {/* Logo */}
-      <div className="cursor-pointer text-[#7562E0] xl:text-3xl sm:text-base font-bold">Alysa Emilio</div>
+      <a href="#home" className="cursor-pointer h-30 w-20 ">
+        <img src={logo} alt="logo"></img>
+      </a>
 
       {/* Mobile hamburger icon */}
       <div
         className="sm:hidden cursor-pointer"
         onClick={toggleMenu}
-        aria-expanded={isMenuOpen ? 'true' : 'false'}
+        aria-expanded={isMenuOpen ? 'true' : 'false'}   
         aria-label="Toggle menu"
       >
         <svg
@@ -49,13 +52,14 @@ function Navbar() {
 
       {/* Navbar items */}
       <div
-        className={`flex flex-col sm:flex-row font-medium z-50  text-white sm:gap-8 sm:items-center absolute sm:relative sm:block top-16 sm:top-auto right-6 sm:right-auto cursor-pointer
-          ${isMenuOpen ? 'bg-[#181824] px-4 text-sm  text-white brounded-lg shadow-lg' : 'hidden sm:flex'}`}
+        className={`flex flex-col sm:flex-row font-medium z-50  xl:text-xl    text-white sm:gap-8 sm:items-center absolute sm:relative sm:block top-16 sm:top-auto right-6 sm:right-auto cursor-pointer
+          ${isMenuOpen ? 'bg-[#181824] px-4 text-sm   text-white brounded-lg shadow-lg' : 'hidden sm:flex'}`}
       >
-        <div className="p-2 hover:text-blue-700">Home</div>
-        <div className="p-2 hover:text-blue-700">About</div>
-        <div className="p-2 hover:text-blue-700">Projects</div>
-        <div className="p-2 hover:text-blue-700">Contact</div>
+       
+        <a href="#home" className="p-2 hover:text-blue-700">Home</a>
+        <a href="#about" className="p-2 hover:text-blue-700 ">About</a>
+        <a href="#project"  className="p-2 hover:text-blue-700">Project</a>
+        <a href="#contact"  className="p-2 hover:text-blue-700">Contact</a>
       </div>
     </nav>
   );

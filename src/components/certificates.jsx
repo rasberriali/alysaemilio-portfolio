@@ -51,7 +51,7 @@ function Certificates() {
 
 
             <div className="bg-blue-700 hover:bg-blue-600 p-2 rounded-md mt-8 flex w-24 justify-center cursor-pointer"
-            onClick={() => (window.location = js2)}>View</div>
+            onClick={() => (window.location = js1)}>View</div>
           </div>
 
           <div className='bg-none border rounded-md p-6   flex flex-col'>
@@ -63,7 +63,7 @@ function Certificates() {
 
 
             <div className="bg-blue-700 hover:bg-blue-600 p-2 rounded-md mt-8 flex w-24 justify-center cursor-pointer"
-            onClick={() => (window.location = js1)}>View</div>
+            onClick={() => (window.location = js2)}>View</div>
           </div>
 
           <div className='bg-none border rounded-md p-6   flex flex-col'>

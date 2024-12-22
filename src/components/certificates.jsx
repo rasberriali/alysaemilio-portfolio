@@ -1,7 +1,7 @@
 import React from 'react';
 import js1 from "../images/js1.jpg"
-import js2 from "../images/js2.png"
 import Mern from "../images/Mern.jpg"
+import js2 from "../images/js2.png"
 import { useEffect } from 'react'
 
 function Certificates() {

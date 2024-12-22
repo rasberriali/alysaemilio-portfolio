@@ -1,7 +1,7 @@
 import React from 'react';
 import js1 from "../images/js1.jpg"
 import Mern from "../images/Mern.jpg"
-import js2 from "../images/js2.png"
+import javascript2 from "../images/javascript2.png"
 import { useEffect } from 'react'
 
 function Certificates() {
@@ -63,7 +63,7 @@ function Certificates() {
 
 
             <div className="bg-blue-700 hover:bg-blue-600 p-2 rounded-md mt-8 flex w-24 justify-center cursor-pointer"
-            onClick={() => (window.location = js2)}>View</div>
+            onClick={() => (window.location = javascript2)}>View</div>
           </div>
 
           <div className='bg-none border rounded-md p-6   flex flex-col'>

@@ -42,7 +42,7 @@ function Contact() {
   {/* Email Section */}
   <div className="flex flex-row items-center space-x-2">
     <img src={sms} alt="Email icon" className="h-6 w-6" />
-    <div className="text-[#9D9BB6]">alysaemilio@gmail.com</div>
+    <a  href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer" className="text-[#9D9BB6]">alysaemilio@gmail.com</a>
   </div>
 
   {/* Social Media Icons */}

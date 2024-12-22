@@ -5,6 +5,7 @@ import Nabvar from "./components/nabvar"
 import Projects from "./components/projects"
 import Testimonial from "./components/testimonial"
 import Contact from "./components/contact"
+import Certificates from "./components/certificates"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
     <Experience/>
     <div id="project">
     <Projects/></div>
+    <Certificates/>
     <Testimonial/>
     <div id="contact">
     <Contact/></div>

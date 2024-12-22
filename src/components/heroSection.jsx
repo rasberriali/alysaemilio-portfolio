@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Typed from "typed.js"; // Import Typed.js
 import user from "../images/user.png";
 import eye from "../images/eye.png";
-
+import cv from "../images/cv.png"
 function HeroSection() {
   useEffect(() => {
     // Initialize Typed.js with the desired options
@@ -48,10 +48,10 @@ function HeroSection() {
           </a>
 
           {/* Resume Button */}
-          <a href="#contact" className="flex items-center bg-transparent border border-[#7562E0] hover:bg-[#2f2f40] transition-all duration-300 rounded-lg py-2 px-6 sm:px-8">
-            <span className="text-sm xl:text-base font-semibold">Resume</span>
+          <div className="flex items-center bg-transparent border border-[#7562E0] hover:bg-[#2f2f40] transition-all duration-300 rounded-lg cursor-pointer py-2 px-6 sm:px-8">
+            <span className="text-sm xl:text-base font-semibold" onClick={() => (window.location = cv)}>Resume</span>
             <img src={eye} alt="Resume" className="h-5 w-5 ml-2" />
-          </a>
+          </div>
         </div>
       </div>
     </section>

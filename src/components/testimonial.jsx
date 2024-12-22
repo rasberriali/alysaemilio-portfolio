@@ -29,7 +29,7 @@ function Testimonial() {
     
     
   return (
-    <div className="flex flex-col px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans mt-32 xl:mt-48 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 ">
+    <div className="flex flex-col  px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans mt-60 xl:mt-64  animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 ">
         <div className='bg-[#100D25] '>
         <div className=" flex flex-col xl:items-start  text-white xl:px-16 items-center py-10 bg-[#151030] border-b-0 rounded-b-3xl xl:h-96 h-72 ">
           <h1 className="xl:text-4xl text-xl font-bold mb-4 text-[#9D9BB6]">WHAT OTHERS SAY ABOUT ME</h1>

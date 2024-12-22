@@ -28,7 +28,7 @@ function Projects() {
     });
   }, []);
   return (
-    <div className="text-white h-full">
+    <div className="text-white h-full ">
         <div className="flex  flex-col px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans mt-40 xl:mt-48 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 ">
         <div className=" flex flex-col items-start  text-white px-4 ">
           <h1 className="xl:text-4xl text-xl font-bold mb-4 text-[#9D9BB6]">MY WORK</h1>
@@ -92,7 +92,7 @@ function Projects() {
         
   {/* GitHub Image with Background */}
   <a 
-   href="https://github.com/rasberriali/dotGenerate" 
+   href="https://github.com/rasberriali/BAGA.Net" 
    target="_blank" 
    rel="noopener noreferrer"  
     className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 p-2 rounded-full shadow-lg"

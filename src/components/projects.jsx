@@ -50,10 +50,50 @@ function Projects() {
         <div className=" flex flex-row items-start  text-white ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  mt-20 gap-8 p-4">
 
+
+        <div className=" bg-[#151030] p-6 rounded-2xl drop-shadow-lg transform hover:rotate-3 flex items-start justify-center flex-col text-white text-xl font-bold  hover:shadow-[0_10px_20px_rgba(44,130,255,0.7)]">
+        <div className="relative">
+          <a href="https://dot-generate.vercel.app">
+        <img src={monitor} alt="monitor" className='rounded-2xl'/></a>
+        
+  {/* GitHub Image with Background */}
+  <a 
+    href="https://github.com/rasberriali/dotGenerate" 
+    target="_blank" 
+    rel="noopener noreferrer"  
+     className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 p-2 rounded-full shadow-lg"
+   >
+    <img 
+      src={github} 
+      alt="GitHub" 
+      className="w-6 h-6" 
+    />
+  </a>
+</div>
+
+
+     
+        <div className='mt-4 font-extrabold text-2xl'>dotGenerate</div>
+       
+            <p className="text-base text-start mt-2 font-medium text-[#9D9BB6]"> 
+            This is a simple personal project, created to enhance my MERN stack skills and perform CRUD functionalities. It generates project ideas to inspire developers.
+            </p>
+            <div className='flex flex-row gap-3'>
+                <p className="text-xs text-center mt-1 text-[#46AEF0] 29CD83">#MongoDB</p>
+                <p className="text-xs text-center mt-1 text-[#29CD83]">#Express.Js</p>
+                <p className="text-xs text-center mt-1 text-[#D53B6A]">#React</p>
+                <p className="text-xs text-center mt-1 text-[#7031ef]">#Node.Js</p>
+                </div>
+
+        </div>
+
+        
+
         <div className=" bg-[#151030] p-6 rounded-2xl drop-shadow-lg  transform hover:rotate-3 flex items-start justify-center flex-col text-white text-xl font-bold  hover:shadow-[0_10px_20px_rgba(44,130,255,0.7)]">
         <div className="relative">
   {/* Mcbook Image */}
-  <img src={mcbook} alt="mcbook" className="rounded-2xl w-full" />
+  <a href="https://air-quality-monitoring-mocha.vercel.app" target="_blank" rel="noopener noreferrer">
+  <img src={mcbook} alt="mcbook" className="rounded-2xl w-full" /></a>
 
   {/* GitHub Image with Background */}
   <a
@@ -88,7 +128,8 @@ function Projects() {
 
         <div className=" bg-[#151030] p-6 rounded-2xl drop-shadow-lg transform hover:rotate-3 flex items-start justify-center flex-col text-white text-xl font-bold  hover:shadow-[0_10px_20px_rgba(44,130,255,0.7)]">
         <div className="relative">
-        <img src={mcbook2} alt="mcbook2" className='rounded-2xl'/>
+          <a href="https://baga-net.vercel.app">
+        <img src={mcbook2} alt="mcbook2" className='rounded-2xl'/></a>
         
   {/* GitHub Image with Background */}
   <a 
@@ -121,40 +162,7 @@ function Projects() {
 
         </div>
 
-        <div className=" bg-[#151030] p-6 rounded-2xl drop-shadow-lg transform hover:rotate-3 flex items-start justify-center flex-col text-white text-xl font-bold  hover:shadow-[0_10px_20px_rgba(44,130,255,0.7)]">
-        <div className="relative">
-        <img src={monitor} alt="monitor" className='rounded-2xl'/>
         
-  {/* GitHub Image with Background */}
-  <a 
-    href="https://github.com/rasberriali/dotGenerate" 
-    target="_blank" 
-    rel="noopener noreferrer"  
-     className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 p-2 rounded-full shadow-lg"
-   >
-    <img 
-      src={github} 
-      alt="GitHub" 
-      className="w-6 h-6" 
-    />
-  </a>
-</div>
-
-
-     
-        <div className='mt-4 font-extrabold text-2xl'>dotGenerate</div>
-       
-            <p className="text-base text-start mt-2 font-medium text-[#9D9BB6]"> 
-            This is a simple personal project, created to enhance my MERN stack skills and perform CRUD functionalities. It generates project ideas to inspire developers.
-            </p>
-            <div className='flex flex-row gap-3'>
-                <p className="text-xs text-center mt-1 text-[#46AEF0] 29CD83">#MongoDB</p>
-                <p className="text-xs text-center mt-1 text-[#29CD83]">#Express.Js</p>
-                <p className="text-xs text-center mt-1 text-[#D53B6A]">#React</p>
-                <p className="text-xs text-center mt-1 text-[#7031ef]">#Node.Js</p>
-                </div>
-
-        </div>
 
         
         </div>

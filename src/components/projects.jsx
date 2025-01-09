@@ -54,14 +54,18 @@ function Projects() {
         <div className=" bg-[#151030] p-6 rounded-2xl drop-shadow-lg transform hover:rotate-3 flex items-start justify-center flex-col text-white text-xl font-bold  hover:shadow-[0_10px_20px_rgba(44,130,255,0.7)]">
         <div className="relative">
           <a href="https://dot-generate.vercel.app">
-        <img src={monitor} alt="monitor" className='rounded-2xl'/></a>
+          <div className="relative group">
+            <img src={monitor} alt="monitor" className="rounded-2xl" />
+            <div className="absolute inset-0 bg-white bg-opacity-50 rounded-2xl opacity-0 group-hover:opacity-40 transition-all duration-300"></div>
+          </div>
+          </a>
         
   {/* GitHub Image with Background */}
   <a 
     href="https://github.com/rasberriali/dotGenerate" 
     target="_blank" 
     rel="noopener noreferrer"  
-     className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 p-2 rounded-full shadow-lg"
+     className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 hover:bg-slate-800  p-2 rounded-full shadow-lg"
    >
     <img 
       src={github} 
@@ -93,14 +97,19 @@ function Projects() {
         <div className="relative">
   {/* Mcbook Image */}
   <a href="https://air-quality-monitoring-mocha.vercel.app" target="_blank" rel="noopener noreferrer">
-  <img src={mcbook} alt="mcbook" className="rounded-2xl w-full" /></a>
+  <div className="relative group">
+  <img src={mcbook} alt="mcbook" className="rounded-2xl w-full" />
+  <div className="absolute inset-0 bg-white bg-opacity-50 rounded-2xl opacity-0 group-hover:opacity-40 transition-all duration-300"></div>
+          </div>
+          </a>
+
 
   {/* GitHub Image with Background */}
   <a
    href="https://github.com/rasberriali/AirQualityMonitoring" 
    target="_blank" 
    rel="noopener noreferrer"  
-    className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 p-2 rounded-full shadow-lg"
+    className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 hover:bg-slate-800 p-2 rounded-full shadow-lg"
   >
     <img 
       src={github} 
@@ -129,14 +138,18 @@ function Projects() {
         <div className=" bg-[#151030] p-6 rounded-2xl drop-shadow-lg transform hover:rotate-3 flex items-start justify-center flex-col text-white text-xl font-bold  hover:shadow-[0_10px_20px_rgba(44,130,255,0.7)]">
         <div className="relative">
           <a href="https://baga-net.vercel.app">
-        <img src={mcbook2} alt="mcbook2" className='rounded-2xl'/></a>
+          <div className="relative group">
+        <img src={mcbook2} alt="mcbook2" className='rounded-2xl'/>
+        <div className="absolute inset-0 bg-white bg-opacity-50 rounded-2xl opacity-0 group-hover:opacity-40 transition-all duration-300"></div>
+          </div>
+        </a>
         
   {/* GitHub Image with Background */}
   <a 
    href="https://github.com/rasberriali/BAGA.Net" 
    target="_blank" 
    rel="noopener noreferrer"  
-    className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 p-2 rounded-full shadow-lg"
+    className="absolute xl:-top-0 xl:right-10 -top-2 right-6 transform translate-x-4 translate-y-4 bg-slate-900 hover:bg-slate-800 p-2 rounded-full shadow-lg"
   >
     <img 
       src={github} 

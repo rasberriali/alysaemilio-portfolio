@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div id="home">
-   <div className="bg-[#1A1A29] h-max bg-grid-pattern bg-grid-size ">
+   <div className="bg-black h-max bg-grid-pattern bg-grid-size ">
     <Nabvar/>
     <HeroSection/>
     <div id="about">

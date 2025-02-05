@@ -25,9 +25,9 @@ function HeroSection() {
   }, []);
 
   return (
-    <section className="flex flex-col xl:justify-center xl:-mt-40 -mt-0 xl:pt-0 pt-40 min-h-svh items-center px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans bg-grid-pattern bg-grid-size bg-[#1A1A29] text-white">
+    <section className="flex flex-col xl:justify-center xl:-mt-40 -mt-0 xl:pt-0 pt-40 min-h-svh items-center px-4 sm:px-6 md:px-8 xl:px-24 2xl:px-48 font-sans bg-grid-pattern bg-grid-size bg-black text-white">
       <div className="min-h-[400px] flex flex-col gap-6 text-center animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
-        <h1 className="text-2xl xl:text-3xl sm:text-4xl font-semibold">
+        <h1 className="text-2xl xl:text-3xl sm:text-4xl font-semibold text-[#9D9BB6]">
           Hello, I'm
         </h1>
         {/* Typing animation with gradient color */}
